@@ -33,7 +33,7 @@ async def greeting(event):
         pass
     except:
         
-        await event.reply('hi!!!')
+        await event.reply('hi!!! How are you?')
         
     
 # <---------------------- Get Pfp ------------------->
