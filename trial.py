@@ -23,6 +23,10 @@ client = TelegramClient('devil', api_id , api_hash)
 is_pm_verified = []
 is_pm_disapproved= []
 
+@client.on(events.NewMessage(outgoing=True , pattern=r'\.help'))
+async def helpHandler(event):
+    await client.edit_message(event.message , "Available Commands\n\n.ap - Approve pm\n.ping - pong\n.photuchor - reply to someone to get his profile pic as yours\n.save - save that message to SavedMessage\n.ulta - reply a text to reverse it\n.quto - reply to text to make It sticker\n.itos - Change Image to sticker\n.stoi - change sticker to image\n.me - a intro dialogue\n.jinda - Check that your bot is alive")
+
 @client.on(events.NewMessage(outgoing=True , pattern=r'\.ap' ))
 async def approvePm(event):
     chat = await event.get_chat()
@@ -150,7 +154,8 @@ async def reverseHandler(event):
 # <---------------------- about me ------------------->
 @client.on(events.NewMessage(outgoing=True , pattern=r'\.me'))
 async def reverseHandler(event):
-    await client.edit_message(event.message , "Hey My name is Tony Stark \nBut somethime my friends call Me Shivam.\n\n**Want to know More About me?**\nGo [Here](https://devil-shiva.github.io/lucifer.github.io/)" , link_preview=False )
+    me = await client.get_me()
+    await client.edit_message(event.message , "Hey My name is Tony Stark \nBut somethime my friends call Me {}.\n\n**Want to know More About me?**\nGo [Here](https://devil-shiva.github.io/lucifer.github.io/)".format(me.username) , link_preview=False )
 
 
 # <---------------------- alive ------------------->
