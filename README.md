@@ -27,9 +27,11 @@ Best Light Weight UserBot For Telegram
 
 ## Deploying You Own Userbot
 
-- After Fork go to Heroku , go to Deploy Section.
+- After Fork, go to Heroku , Create an App. name it anything.
 
-- Select Deploy from Github, Connect your Github account
+- Go to Deploy Section in your heroku all
+
+- Select "Deploy from Github", Connect your Github account
 
 - Search and select your repo
 
