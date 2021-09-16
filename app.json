@@ -7,7 +7,7 @@
         "Telethon"
     ],
     "repository":"https://github.com/devil-shiva/userbot",
-    "logo":"https://telegra.ph/file/3ef58ddbd6ec86ad1fd68.jpg",
+    "logo":"https://telegra.ph/file/5e567429f94ddd1038cb7.png",
     "success_url":"https://t.me/gabbarUserBot",
     "stack": "container",
     "env":{
