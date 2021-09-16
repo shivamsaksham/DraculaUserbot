@@ -1,5 +1,5 @@
 from telethon import TelegramClient 
-
+from telethon.sessions import StringSession
 import os
 
 string = os.environ['STRING_SESSION']
