@@ -13,11 +13,15 @@ Best Light Weight UserBot For Telegram
   
 ## Requirements
 
-- Your Api Id and Hash, Get it From [Here](https://telegram.org)
+- Your Api Id and Hash, Get it From [Here](https://my.telegram.org)
+
+- Your String Session, Get it From [Here](https://replit.com/@Raavann/Gabbar-UserBot)
 
 - An Heroku Account. Make an Account On [Heroku](https://signup.heroku.com/login)
 
 - An Github Account. Make an Account On [Github](https://github.com)
+
+- News Api from [Here](https://newsapi.org/)
 
 - An Telegram Account Offcource.
 
@@ -49,9 +53,12 @@ Key                     Value
 
 API_ID                 your apid id
 API_HASH               your api hash
+NEWS_API               your news api
+STRING_SESSION         Your String Session
 ```
 
--Get Api id and Hash From [Here](https://my.telegram.org)
+- Get Api id and Hash From [Here](https://my.telegram.org)
+- News Api from [Here](https://newsapi.org/)
 
 ## Now Enable Worker From Heroku
 
