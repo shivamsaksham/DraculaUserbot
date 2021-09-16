@@ -1,2 +1,1 @@
-run:
-  worker: python trial.py
+worker: python trial.py
