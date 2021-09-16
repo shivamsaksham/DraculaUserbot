@@ -1,1 +1,1 @@
-RUN python trial.py
+RUN ./trial
