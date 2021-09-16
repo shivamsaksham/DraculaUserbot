@@ -1,1 +1,1 @@
-worker: python trial.py
+RUN python trial.py
