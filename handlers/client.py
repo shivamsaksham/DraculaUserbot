@@ -10,4 +10,4 @@ news_api = os.environ['NEWS_API']
 # with TelegramClient(StringSession(), api_id, api_hash) as client:
 #     session_str
 
-client = TelegramClient(string, api_id , api_hash)
+client = TelegramClient(StringSession(string), api_id , api_hash)
