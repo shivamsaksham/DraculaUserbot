@@ -1,1 +1,2 @@
 RUN ./trial
+CMD ./START
