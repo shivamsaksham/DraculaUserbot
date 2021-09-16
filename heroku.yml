@@ -1,3 +1,5 @@
 build:
   docker:
     gabbar: Dockerfile
+run:
+  gabbar: python trial.py
