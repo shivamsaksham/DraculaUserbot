@@ -10,7 +10,7 @@ news_api = os.environ['NEWS_API']
 with TelegramClient(StringSession(string), api_id, api_hash) as client:
     ...  # use the client
 
-    
+    client = client
     string = client.session.save()
 
 # Note that it's also possible to save any other session type
