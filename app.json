@@ -1,0 +1,34 @@
+{
+    "name": "Gabbar UserBot",
+    "description":"This UserBot does only few things but Does it best",
+    "keywords":[
+        "Gabbar",
+        "Userbot",
+        "Telethon"
+    ],
+    "repository":"https://github.com/devil-shiva/userbot",
+    "logo":"https://telegra.ph/file/3ef58ddbd6ec86ad1fd68.jpg",
+    "success_url":"https://t.me/gabbarUserBot",
+    "stack": "container",
+    "env":{
+        "API_ID": {
+            "description": "You api id, from my.telegram.org.",
+            "value": ""
+        },
+        "API_HASH":{
+            "description": "You api hash, from my.telegram.org.",
+            "value": ""
+        },
+        "SESSION": {
+            "description": "A secret key for verifying the integrity of signed cookies.",
+            "generator": "secret"
+        }
+    },
+    "formation":{
+        "gabbar":{
+            "quantity":1,
+            "size":"free"
+        }
+    }
+
+}
