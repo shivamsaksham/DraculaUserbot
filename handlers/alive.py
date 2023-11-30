@@ -1,6 +1,6 @@
 
 from telethon import client, events
-
+import os
 
 
 @events.register(events.NewMessage(outgoing=True , pattern=r'\.jinda'))
