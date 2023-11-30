@@ -6,8 +6,8 @@ Best Light Weight UserBot For Telegram
 
 ## Features
 
-- You Just Need Fork This Repo and deploy it from Heroku
-- Need To Add only Few Things in Heroku Config Vars
+- You Just Need to Fork This Repo and deploy it.
+- Just install requirements.txt and make the .env file and it's ready for deployment.
 
 [FORK THIS REPO](https://github.com/devil-shiva/userbot/fork)
   
@@ -15,72 +15,81 @@ Best Light Weight UserBot For Telegram
 
 - Your Api Id and Hash, Get it From [Here](https://my.telegram.org)
 
-- Your String Session, Get it From [Here](https://replit.com/@Raavann/Gabbar-UserBot)
-
-- An Heroku Account. Make an Account On [Heroku](https://signup.heroku.com/login)
+- Your String Session, Get it From <a href="https://replit.com/@Raavann/Gabbar-UserBot" target="_blank">Here</a>
 
 - An Github Account. Make an Account On [Github](https://github.com)
 
-- News Api from [Here](https://newsapi.org/)
+- News Api from [Here](https://newsapi.org/) (Optional)
 
-- An Telegram Account Offcource.
+- An Telegram Account 😁.
 
-## Deploying You Own Userbot
+## Deploying You Own Userbot (Local)
 
-- After Fork, go to Heroku , Create an App. name it anything.
-
-- Go to Deploy Section in your heroku all
-
-- Select "Deploy from Github", Connect your Github account
-
-- Search and select your repo
-
-- Enable Auto Deploy
-
-- Press on Deploy
-
-- And It will Begin Deploying
-
-- Hope You don't get any error. If you gets. Contact Us [Here](https://t.me/team_hacktwist)
-
-## Adding Api Key and Api Hash
-- Go to Settings of your Heroku app.
-
-- Press On Revel Config Vars.
-
-- Now add These Key and Value Pairs
+- After Fork, clone this repository to you local machine using the following command
 
 ```bash
-Key                     Value
-
-API_ID                 your apid id
-API_HASH               your api hash
-NEWS_API               your news api
-STRING_SESSION         Your String Session
+    git cline https://github.com/shivamsaksham/DraculaUserbot.git
 ```
 
-- Get Api id and Hash From [Here](https://my.telegram.org)
-- News Api from [Here](https://newsapi.org/)
+- Open the Cloned Folder and Create a new Virtual Environment.
 
-## Now Enable Worker From Heroku
+```bash
+# if virtual environment package not installed, install it using the following command
+pip install virtualenv
 
-- Go to resourses section on Heroku
+# Create the virtual environment
+virtualenv venv
 
-- Enable Worker. And see your Heroku logs
+```
 
-- After Buid Succeded without Any Error, Your Bot will Be deployed
+- once Virtual Environment is created, you can activate it using the following command
 
-- do .help to get all available Commands
+```bash
+venv/Scripts/activate
 
-- Join Our [Channel](https://t.me/team_hacktwist)
+```
 
+- Once Activated install the requirements.txt using the following command
+
+```bash
+pip install -r requirements.txt
+```
+
+- Once the requirements.txt is installed, **You have to create .env file and add Some Values that Belongs to You**
+
+- Create the .env file with the following values
+
+```
+STRING_SESSION="put you string session here generated from <a href="https://replit.com/@Raavann/Gabbar-UserBot" target="_blank">https://replit.com/@Raavann/Gabbar-UserBot</a>"
+API_KEY= "put your telegram account api key here"
+API_HASH="put you telegram account hash here"
+NEWS_API="the news API"
+
+```
+
+- Once all the environment values have been set, it's time to runt the Bot with the following command
+
+```bash
+
+python main.py
+
+```
+
+- That's all, now use your UserBot.
+
+- Hope You don't get any error. If you get any error. Contact Us <a href="https://t.me/teamHack_Twist" target="_blank">Here</a>
+
+## Contribute (Open Source)
+
+- We are open to any type of Contributions.
+
+- Provide clear message while making pull requests.
+
+- Join Our [Community](https://t.me/team_hacktwist)
 
 ## 🔗 Links
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://shivamsaksham.vercel.app/)
 
 
-  
-## Licence
-[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
 
   
