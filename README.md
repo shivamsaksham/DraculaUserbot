@@ -21,7 +21,7 @@ Best Light Weight UserBot For Telegram
 
 - News Api from [Here](https://newsapi.org/) (Optional)
 
-- An Telegram Account 😁.
+- A Telegram Account 😁.
 
 ## Deploying You Own Userbot (Local)
 
